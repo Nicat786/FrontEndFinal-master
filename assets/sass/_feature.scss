@@ -1,0 +1,43 @@
+#feature{
+	overflow:hidden;
+
+	.first{
+		transform:translateX(1300px);
+	}
+	.second{
+		transform:translateX(-1300px);
+	}
+	.setir{
+		text-align: center;
+		margin-top: 45px;
+		transition: all .3s ease;
+		.feature{
+			display: inline-block;
+			&:hover i{
+				color:#76DDFF;
+			}
+			i,h4,p{
+				display: block;	
+			}
+			i{
+				font-size:53px;
+				color:#1BC6FF;
+			}
+		}
+	}
+}
+@media (max-width:800px){
+	#feature{
+		.setir{
+			.feature{
+				width:100%;
+				margin-top:80px; 
+				display: block;
+				text-align: center;
+			}
+			.feature:first-child{
+				margin-top: 0px;
+			}
+		}
+	}
+}

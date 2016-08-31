@@ -1,0 +1,73 @@
+#updates{
+	overflow:hidden;
+	.text{
+		transform:translateX(-700px);
+		transition:all .5s ease;
+	}
+	h1{
+		font-weight: 300;
+		font-size:45px;
+		color:white;
+		margin-top: 30px;
+	}
+	p{
+		font-weight: 400;
+		font-size:16px;
+		color:white;
+		margin-top: -10px;
+	}
+	.inputs{
+		transition:all .5s ease;
+		transform:translateX(1000px);
+		input{
+			margin-top: 45px;
+			width: 190px;
+			height: 50px;
+			border:none;
+			border-left:3px solid #1AC6FF;
+			font-size:17px;
+			padding-left: 10px;
+		}
+		.email{
+			margin-left: 10px;
+			width:270px;
+		}
+		button{
+			width:145px;
+			height: 50px;
+			border:1px solid white;
+			border-radius:3px;
+			background: transparent;
+			color:white;
+			margin-left: 10px;
+			transition:background 300ms,color 300ms;
+			&:hover{
+				background:white;
+				color:#1AC6FF;
+			}
+		}
+
+	}
+}
+@media (max-width:800px){
+	#updates{
+		text-align: center;
+		.inputs{
+			input{
+				width:100%;
+			}
+			.email{
+				width:100%;
+				padding:0;
+				margin-left: 0;
+				margin-top:10px;
+			}
+			button{
+				width: 100%;
+				margin-left: 0;
+				margin-top: 10px;
+				margin-bottom: 80px;
+			}
+		}
+	}
+}

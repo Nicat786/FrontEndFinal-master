@@ -1,0 +1,60 @@
+#header{
+	h1{
+		color:white;
+		font-weight:300;
+		font-size:58px;
+		padding-top:160px;
+		display: none;
+		span{
+			color:$mainColor;
+		}
+	}
+	h5{
+		font-size:24px;
+		color:white;
+		font-weight:300;
+		display: none;
+	}
+	button{
+		border:none;
+		border-radius:3px;
+		margin-top:30px;
+		display: none;
+	}
+	button:nth-child(3){
+		color:white;
+		background:$mainColor;
+		padding:17px 50px;
+		min-width:144px;
+	}
+	button:last-child{
+		padding:15px 25px;
+		color:white;
+		border:1px solid white;
+		background:none;
+		margin-left:10px;
+		font-weight:500;
+		transition:background 500ms,color 500ms;
+		&:hover{
+			background:white;
+			color:$mainColor;
+		}
+	}
+}
+@media (max-width: 800px) {
+	#header{ 
+		h5{
+			font-size:16px;
+		}
+		h1{
+			font-size: 36px;
+		}
+		button{
+			width:100%;
+		}
+		button:last-child{
+			margin-left: 0;
+		}
+	}
+
+}

@@ -1,0 +1,47 @@
+#startup{
+	i{
+		font-size: 60px;
+		margin-top: 35px;
+		color:white;
+	}	
+	h2{
+		color:white;
+		font-size: 45px;
+		font-weight:300;
+		margin-top: 30px;
+	}
+	p{
+		color:white;
+		margin-top: -10px;
+	}
+	button{
+		width:185px;
+		height: 50px;
+		border:1px solid white;
+		border-radius: 3px;
+		background: transparent;
+		color:white;
+		float: right;
+		margin-top: -60px;
+		transition: background 300ms, color 300ms;
+		&:hover{
+			background:white;
+			color:#4FD3FF;
+		}
+	}
+}
+@media (max-width:800px){
+	#startup{
+		text-align:center;
+		h2{
+			font-size:36px;
+		}
+		button{
+			margin-top: 0;
+			float: none;
+			margin-bottom: 35px;
+			margin-top: 15px;
+		}
+	}
+	
+}

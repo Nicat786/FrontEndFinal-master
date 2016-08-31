@@ -1,0 +1,149 @@
+$mainColor:#1AC6FF;
+// MENU
+a{
+   color:white;
+}
+   .nav{
+
+      .SecondUL{
+         position: absolute;
+         left: 159px;
+         top: -3px;
+      }
+      .ThirdUl{
+         position: absolute;
+         left: 159px;
+         top: -3px;
+      }
+      .FourthUl{
+         position: absolute;
+         left: 159px;
+         top: -2px;
+      }
+   }
+   .FirstNav{
+      border: none;
+      background: transparent;
+      min-height: 75px;
+      .MyLogo{
+         width: 150px;
+         height: 32px;
+         background: url("../images/logo.png") no-repeat;
+         background-size: contain;
+         margin-top: 20px;
+      }
+      li{
+         margin: 12px 0px;
+         ul{
+            background: #272727;
+            padding: 0;
+            li{
+               padding: 0;
+               margin: 0;
+               a{
+                  color: #ffffff !important;
+                  padding: 10px 0px 10px 15px;
+                  margin: 0;
+               }
+               a:hover{
+                  background: #1a192b ;
+                  transition: all .3s ease;
+               }
+            }
+         }
+         a{
+            color: #CDCCDE !important;
+            text-transform: uppercase;
+            font-weight: 300;
+            &:hover{
+               color: #1AC3FD !important;
+            }
+         }
+      }
+      .lastLi{
+         border: 1px solid #1AC3FD;
+         margin: 21px 0px;
+         a{
+            padding: 6px 12px;
+         }
+         a:hover{
+            background: #1AC3FD !important;
+            color: #ffffff !important;
+            transition: all .3s ease;
+         }
+      }
+      // ACTIVE CLASS
+      .MyActive{
+         background: transparent;
+         border-bottom: 2px solid #1AC3FD;
+         a{
+            color: #1AC3FD !important;
+            text-transform: uppercase;
+         }
+      }
+   }
+   .SecondNav{
+      border: none;
+      width: 100%;
+      min-height: 75px;
+      z-index: 1;
+      position: fixed;
+      .MyLogo{
+         width: 150px;
+         height: 32px;
+         background: url("../images/logo2.png") no-repeat;
+         background-size: contain;
+         margin-top: 20px;
+      }
+      li{
+         margin: 12px 0px;
+         ul{
+            background: #272727;
+            padding: 0;
+            li{
+               padding: 0;
+               margin: 0;
+               a{
+                  color: #ffffff !important;
+                  padding: 10px 0px 10px 15px;
+                  margin: 0;
+               }
+               a:hover{
+                  background: #1a192b !important;
+                  transition: all .3s ease;
+                  color:white !important;
+               }
+            }
+         }
+         a{
+            color:black;
+            text-transform: uppercase;
+            font-weight: 300;
+            &:hover{
+               color: #1AC3FD !important;
+            }
+         }
+      }
+
+      .MyActive{
+         background: transparent;
+         border-bottom: 2px solid #1AC3FD;
+         a{
+            color: #1AC3FD !important;
+            text-transform: uppercase;
+         }
+      }
+      .lastLi{
+         border: 1px solid #1AC3FD;
+         margin: 21px 0px;
+         a{
+            padding: 6px 12px;
+         }
+         a:hover{
+            background: #1AC3FD !important;
+            color: #ffffff;
+            transition: all .3s ease;
+         }
+      }
+   }
+

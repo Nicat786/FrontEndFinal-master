@@ -1,0 +1,37 @@
+#award{
+	overflow:hidden;
+	.container{
+		transition: all .5s ease;
+		transform:translateY(-1000px);
+	}
+	h1{
+		font-weight: 300;
+		margin-top: 80px;
+		font-size: 45px;
+		span{
+			color:#22C8FF;
+		}
+	}
+	p{
+		font-weight: 400;
+		font-size:16px;
+	}
+	img{
+		margin-left:60px;
+		margin-top:60px;
+	}
+}
+@media (max-width:800px){
+	#award{
+		h1,p{
+			margin-right: 0;
+		}
+		img{
+			margin-left: 0;
+			width: 50%;
+		}
+		img:last-child{
+			padding-bottom: 60px;
+		}
+	}
+}

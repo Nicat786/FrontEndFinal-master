@@ -1,0 +1,94 @@
+body{
+	background:url("../images/bg.jpg") no-repeat;
+	background-size:cover;
+	background-attachment:fixed;	
+	font-family: 'Lato', sans-serif;
+	font-weight:300;
+}
+// imports
+@import 'menu';
+@import 'header'; 
+@import 'logo';
+@import 'forEveryStartup';
+@import 'technology';
+@import 'helmet';
+@import 'comp';
+@import 'feature';
+@import 'updates';
+@import 'price';
+@import 'award';
+@import 'feedback';
+@import 'team';
+@import 'startup';
+@import 'footer';
+
+// sections
+#menu{
+	min-height:75px;
+}	
+#header{
+	min-height:580px;
+}	
+#logo{
+	min-height:127px;
+	background:#F0F0F0;
+}
+#forEveryStartup{
+	min-height:553px;
+	background:white;
+	border-bottom:1px solid #F0F0F0;
+}	
+#technology{
+	min-height:486px;
+	background:white;
+	border-bottom:1px solid #F0F0F0;
+}	
+#helmet{
+	min-height:510px;
+	background:white;
+	border-bottom:1px solid #F0F0F0;
+}
+#comp{
+	min-height:505px;
+	background:#F0F0F0;
+}
+#feature{
+	min-height:548px;
+	background:white;
+}
+#updates{
+	min-height:132px;
+}
+#price{
+	min-height:882px;
+	background:white;
+}
+#award{
+	min-height:363px;
+	background:white;
+}
+#feedback{
+	.transparent{
+		min-height: 255px;
+		background:transparent;
+	}
+}
+#clients{
+
+		min-height: 145;
+		background:white;
+		.container{
+			padding-bottom: 20px;
+		}
+}
+#team{
+	min-height:797px;
+	background:white;
+}
+#startup{
+	min-height:142px;
+	background:#1AC6FF;
+}
+#footer{
+	min-height:415px;
+}

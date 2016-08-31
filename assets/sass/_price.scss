@@ -1,0 +1,134 @@
+#price{
+	overflow:hidden;
+	.container{
+		transition: all .5s ease;
+		transform: translateY(1000px);
+	}
+	h1{
+		font-weight: 300;
+		margin-top: 80px;
+		font-size: 45px;
+		span{
+			color:#22C8FF;
+		}
+	}
+	p{
+		font-weight: 400;
+		font-size:16px;
+	}
+// ----------------------PRICE----------------------
+
+	.price{
+		text-align: center;
+		margin-top: 50px;
+		display: inline-block;
+		width:31%;
+		margin-left: 20px;
+		&:hover{
+			.willBeBlue{
+				background:#1AC6FF;
+				transition: all .3s ease;
+				.heading,.cost,.currency,.period,.details{
+					color:white;
+					background:#1AC6FF;
+					button{
+						border:1px solid white;
+					}
+					li{
+						border-bottom:1px solid white;
+					}
+				}
+			}
+		}
+		.heading{
+				height: 60px;
+				background:#F8F8F8;
+				font-size: 25px;
+				padding-top: 10px;
+				color:#A3A3A3;
+				font-weight: 300;
+			}
+			.cost{
+				font-size:115px;
+				font-weight: 400;
+				height: 240px;
+				background:#F3F3F3;
+				.currency{
+					font-size: 47px;
+					position: relative;
+					top:-40px;	
+			
+				}
+				.period{
+					font-size: 15px;
+					display: block;
+					margin-top: -20px;
+
+				}
+			}
+			.blue{
+					color:#1AC6FF;
+
+				}
+			.details{
+				background:#F8F8F8;
+				ul{
+					padding-top: 30px;
+					padding-right:40px;
+			}
+				li{
+					list-style-type: none;
+					font-size: 16px;
+					line-height: 55px;
+					border-bottom:1px solid lightgray;
+				}
+				li:last-child{
+					border-bottom:none;
+				}
+				button{
+					width:270px;
+					height: 45px;
+					border:none;
+					background:transparent;
+					margin-top: 10px;
+					font-weight: bold;
+					margin-bottom: 50px;
+				}
+				.grayBorder{
+					border:1px solid #B6B6B6;
+					border-radius:3px;
+				}
+				.blueBorder{
+					border:1px solid #1AC6FF;
+					border-radius:3px;
+					transition:background 300ms, color 300ms,border 300ms;
+					&:hover{
+						background:white;
+						color:#1AC6FF;
+						border:1px solid white;
+					}
+				}
+			}
+			.col-md-4{
+				.row{
+					padding-right:15px;
+					padding-left:15px;
+				}
+			}
+			
+	}
+}
+@media (max-width:800px){
+	#price{
+		h1{
+			font-size:27px;
+		}
+		.price{
+			width:100%;
+			margin-left: 0;
+			.blueBorder,.grayBorder{
+				width:100%;
+			}
+		}
+	}
+}
